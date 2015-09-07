@@ -1,90 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<!-- Fonts from Google Fonts -->
+<html class="no-js" lang="">
+    <head>
+    <!-- Fonts from Google Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Special+Elite|PT+Sans:400,400italic,700,700italic|Anonymous+Pro' rel='stylesheet' type='text/css'>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"> -->
         <title>Chi Bobo Blog</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="../stylesheets/normalize.min.css">
-        <link rel="stylesheet" href="../stylesheets/main-css.css">
+        <link rel="stylesheet" href="../stylesheets/default.css">
+        <link rel="stylesheet" href="../stylesheets/blog.css">
         <link rel="stylesheet" href="../stylesheets/trg.css">
 
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>A Chi Bobo</title>
-
-         <!--Favicon not working, review HTML5 Boilerplate: link rel="favicon" href="favicon.png">-->
-        <!--CSS file to be added later-->
-        <link rel="stylesheet" href="css/main.css">
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
     </head>
+
+
     <body>
-   
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
- 	<div id="page">
- 		<header>
- 	<!--Place graphic header here <img src="banner.png" alt="Banner">-->
- 	<div class="banner">
- 		<H1>Chi Bobo Blog</H1> 
-		<img src="../imgs/bobo_blog2.png" alt="BoboBlog">
-			<nav>
-		 		<ul>
-		 			<li><a href="https://jreeserunyan.github.io/index.html#">Home</a></li>
-		 			<li><a href="https://jreeserunyan.github.io/blog/index.html#">Blog</a></li>
-		 			<li><a href="#">Projects</a></li>
-		 			<li><a href="#">Resume</a></li>
-		 			<li><a href="#">About</a></li>
-		 		</ul>
-		 	</nav>
-		</header>
-
-
-
- 	<!--SITE CONTENT-->
- 	<!-- I don't know if I need the <div id="content"> I may only need 1 div wrapper that covers everything from above the header to below the footer. Wait for CSS-->
-	<main>
-	<section>
-			<H2 id="week1">Hello version control</H2>
-		  	<H3>What, how and why!</H3>
-	    
+<!-- BEGIN CONTENT -->
+    <div class="debug">
+       <header class="clearfix span-12-t 2 debug">
+            <img src="imgs/bobolink_Icon.png" alt="Bobolink Logo">
+               
+                <h1>Chi Bobo Blog</h1>
+        
+                    <nav> 
+                        <ul>
+                            <li><a href="https://jreeserunyan.github.io/index.html#">home</a></li>
+                            <li><a href="https://jreeserunyan.github.io/blog/blog-index.html#">Blog</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Resume</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+        </header>
+ 
+       
+  
+<!-- Main content -->
+<div class="col span-8-t debug">
+    <section>
+            <h2>Positions, please!</h2>
+            <h3>CSS Concepts: What are the differences between relative, absolute, fixed, and static positioning?</h3>
     <article>
-    	<H4>Aug 24, 2015</H4>
-    	<p>Version control is beneficial because it keeps things tidy. Especailly with open source projects, where there are endless versions of things, developers would be lost without a good version control system.</p>
-    	<p>Git allows you to create commits, which wraps up a set of changes you have made and asks you to leave a note that will help give context to any user who looks at it.</p>
-    	<p>GitHub is a great place to store code because it's efficient and practical. It also makes it possible to access the code from anywhere and share it with everyone.</p>
-    	<p>I have more to say but no time to say it, so really quick: Git is local. Github is remote (on the web). The analogy of Git is to Github as a flash drive is to to dropbox is useful. But it’s not magic. You have to tell git to get things from GitHub and vice-versa.</p>
+        <h4>Sept. 07, 2015</h4>
+    
+        <p>When setting up webpage with CSS, tiny differences can make huge changes. Positioning, display, floats and space are all important to the importance your site.
+        The differences between the positioning values can be dramatic.
+        <br>
+        First, there is the default setting, which is <em>static</em>. There’s nothing really special about, the image will go with the normal flow of the page. It cannot be moved with properties like top, right, bottom and left.
+        <br>
+        The <em>relative</em> value moves an element in relation to its static position. When you use the <em>position: relative;</em> ruleset, you use additional properties, like top, right, bottom and left to direct the object where you want it to be.For example: <em>top: 5em;</em>.
+        <br>
+        The <em>fixed</em> property is a pretty interesting one. I would say it should be used sparingly. When you use the fixed position property, an element stays in the same place on the screen, regardless of scrolling and resizing. If you put it in upper right corner of you page, it will always be there!
+        <br>
+        The last positioning value is <em>absolute</em>. This one is a little tricky. Instead of being linked in relation to the page or the browser, it’s linked to the nearest positioned object. (A positioned object is just any object that isn’t static.) What this really means is that it can be relative to other relative objects on the screen, or to fixed objects. It’s a pretty useful thing, but it takes a little work to get used to it. I recommend just putting in some different values and watching the way the objects move in relation to each other.
+        </p>
     </article>
-	</section>
- 	</div>
+    </section>
+    
 
- 	</main>
-<!-- If using aside, do I need div?  Can't tell without css-->
- 	<div id="content2"> 
- 	<aside>
-	 	<section>
-	 		<H3>Previous Blogs</H3>
-	 	<ul>
-	 		<li><a href="t1-git-blog.html"><b>Week 1</b> - Hello Version Control</a></li>
-	 		<li><a href="week2">Week 2 - To be announced...</a></li>
-	 		<li><a href="week3">Week 3 - To be announced...</a></li>
-	 		<li><a href="week4">Week 4 - To be announced...</a></li>
-	 		<li><a href="week5">Week 5 - To be announced...</a></li>
-	 		<li><a href="week6">Week 6 - To be announced...</a></li>
-	 		<li><a href="week7">Week 7 - To be announced...</a></li>
-	 	</ul>
-		</section>
-	</aside>
- 	</div>
+    </div>
+
+<!-- Sidebar -->
+    <aside class="col span-4-t debug">  
+            <h3>Previous Blogs</h3>
+        <ul>
+            <li><a href="../blog-index.html"><b>Week 1</b> - Hello, Version Control</a></li>
+            <li><a href="../css-concepts.html"><b>Week 2</b> - Positions, please!</a></li>
+            <li><a href="../blog-week3.html">Week 3 - To be announced...</a></li>
+            <li><a href="../blog-week4.html">Week 4 - To be announced...</a></li>
+            <li><a href="../blog-week5.html">Week 5 - To be announced...</a></li>
+            <li><a href="../blog-week6.html">Week 6 - To be announced...</a></li>
+            <li><a href="../blog-week7.html">Week 7 - To be announced...</a></li>
+        </ul>
+                 
+            <h3>Follow Me On...</h3>
+<!-- These divs are in the CSS as 'aside div img' -->
+     <div class="social media">
+            <a href="https://github.com/jreeserunyan" target="_blank"> 
+                <img src="../imgs/github.png" alt="Github"></a>
+    </div>
+    <div class="social media">
+            <a href="https://www.linkedin.com/in/jreeserunyan" target="_blank">
+            <img src="../imgs/Logo-2CRev-59px-TM.png" alt="LinkedIn"></a>
+    </div>
+    <div class="social media">
+            <a href="http://www.twitter.com/reese_37" target="_blank"> 
+            <img src="../imgs/TwitterLogo.png" alt="Twitter"></a>
+    </div>
+
+                    <!-- Eventually create graphics for email-->
+                        <div class="contact">
+                    <h3>Contact Me<br> @ <a href="mailto:#">this address!</a></h3>
+                        
+                    <!-- how specific should contact info be? -->
+                    <p>Jamie Runyan<br><b>Logan Square</b> Chicago, IL</p>
+                        </div>
+        </aside>
 
 
- 	<footer>
- 		<img src="imgs/icon_sm2.png" alt="Small Bobolink Logo"> &copy; 2015 Jamie Runyan
- 	</footer>
-
-
-  </body>
+    <footer class="col span-12-t debug">
+        <img class="span-1-t" src="imgs/icon_sm2.png" alt="Small Bobolink Logo"> &copy; 2015 Jamie Runyan
+    </footer>
+</div></body>
+    
 </html>
