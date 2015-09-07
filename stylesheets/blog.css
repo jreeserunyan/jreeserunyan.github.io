@@ -1,0 +1,44 @@
+/*Full width content section*/ 
+
+.span-12-t {
+    background-image: url("../imgs/bl_pat.png") ;
+    color: white; 
+    padding: .1em;
+    margin-bottom: -1em;  
+}
+
+.span-4-t { 
+    background-color: black; 
+    border-left: 1pt dotted silver;
+    color: white;
+    height: 100%;
+    padding: 3%;  
+}
+
+/*Blog aside*/
+h1 {
+    color: white;
+    display: inline-block;
+    font-family: 'Anonymous Pro', ;
+    font-size: 3em;
+    padding: .5em;
+}
+
+h3 {
+    font-family: 'Anonymous Pro', ;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+/*Social media linked icons*/
+aside div img {
+    background-color: black;
+    height: 2em;
+    padding: .5em;
+}
+
+/*Color around contact info*/
+.contact {
+    background-color: black;
+    padding: 1em;
+}

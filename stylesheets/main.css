@@ -1,0 +1,344 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  /*  text-align: justify;*/
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*Fix for annoying space chrome adds on the sides*/
+ul, ol {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+} 
+
+/*Outline for viewing elements*/
+.debug {
+    border: 0px solid red;
+}
+
+/*Link styles*/
+a:link { color: teal; }
+a:visited { color: silver; }
+a:hover { color: aqua; }
+a:active { color: yellow; }
+
+
+header img {
+    float: left;
+    padding: .5em;
+    width: 15%;
+}
+
+/*navigation*/
+nav ul li {
+    background-color: #001B1D; 
+    border-top: 2px solid #2B2A2A;
+    border-bottom: 2px solid #2B2A2A;
+    float: left;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    width: 20%;
+}
+
+nav a {
+    background-color: black;
+    border-top: 1px solid #2B2A2A;
+    border-right: 1px solid #2B2A2A;
+    border-bottom: 1px solid #8D8989;
+    border-left: 2px solid #001B1D;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: .8em;
+    height: 2em;
+    padding: 1em 1em 1em 1em ;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav {
+    background-color: black;
+    float: right;
+    width: 100%;
+}
+
+/*fonts*/
+h1 {
+    color: white;
+    display: inline-block;
+    font-family: 'Anonymous Pro', ;
+    font-size: 3em;
+    padding: .5em;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 2.2em;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+h4 { 
+    color: teal;
+    font-family: 'Anonymous Pro', ;
+    font-size: 1.2em;
+}
+
+p {
+   font-family: 'PT Sans', sans-serif; 
+
+}
+
+ul {
+   font-family: 'PT Sans', sans-serif;
+   margin: 0em 0em 0em 3em; 
+}
+
+aside ul {
+    margin: 1em;
+    list-style: none;
+    overflow: auto;
+}
+
+/*Full width content section*/ 
+.span-12-t {
+    background-image: url("../imgs/pat.png") ;
+    color: white; 
+    padding: .1em;  
+}
+
+/*Main content section*/
+.span-8-t { 
+    height: 100%;
+    padding: 2em; 
+}
+
+article h4 {
+    border-top: 1pt dotted teal;
+    padding-top: 1em;
+}
+
+/*Sidebar*/
+#aside {
+    height: 100%;
+    position: absolute;
+}
+
+.span-4-t { 
+    background-color: #F3F3F4; 
+    border-left: 1pt dotted teal;
+    height: 100%;
+    padding: 2em;  
+}
+
+/*Profile image*/
+.profile {
+    float: left;
+    margin-bottom: 2em;
+    margin-top: -10em;
+    width: 70%;
+}
+
+/*Social media linked icons*/
+aside div img {
+    background-color: black;
+    height: 3em;
+    padding: 1em;
+}
+/*Color around contact info*/
+.contact {
+    background-color: silver;
+    padding: 1em;
+}
+
+/*Footer image*/
+.span-1-t { 
+    height: auto;
+    padding: .5em;  
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
