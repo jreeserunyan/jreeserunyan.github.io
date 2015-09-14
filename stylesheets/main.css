@@ -142,6 +142,12 @@ h4 {
     font-size: 1.2em;
 }
 
+h5 {
+    font-family: 'Special Elite', cursive;
+    font-size: 1em;
+
+}
+
 p {
    font-family: 'PT Sans', sans-serif; 
 
@@ -157,6 +163,9 @@ aside ul {
     list-style: none;
     overflow: auto;
 }
+
+section a:visited { color: teal; }
+
 
 /*Full width content section*/ 
 .span-12-t {
