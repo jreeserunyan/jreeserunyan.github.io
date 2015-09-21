@@ -8,7 +8,7 @@
 }
 
 .span-4-t { 
- /*   background-color: black; */
+    background-color: black; 
     border-left: 1pt dotted silver;
     color: white;
     height: 100%;
@@ -17,7 +17,7 @@
 
 /*Blog aside*/
 h1 {
-    color: black;
+    color: white;
     display: inline-block;
     font-family: 'Anonymous Pro', ;
     font-size: 3em;
