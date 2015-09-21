@@ -197,20 +197,12 @@ article h4 {
     width: 70%;
 }
 
-/*Social media bg*/
-aside div {
-    background-image: url("../imgs/bl_pat.png");
-    width: 100%;
-    padding: 1em;
-}
-
 /*Social media linked icons*/
-/*aside div img {
+aside div img {
     background-color: black;
     height: 3em;
     padding: 1em;
-}*/
-
+}
 /*Color around contact info*/
 .contact {
     background-color: silver;
