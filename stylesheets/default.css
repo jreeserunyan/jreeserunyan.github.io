@@ -112,6 +112,7 @@ nav a {
 
 nav {
     background-color: black;
+    border-bottom: 1pt solid black;
 /*    float: right;
     width: 100%;*/
 }
