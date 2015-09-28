@@ -95,7 +95,7 @@ nav ul li {
     overflow: auto;
     /*position: relative;*/
     text-align: center;
-    width: 19%;
+    width: 15%;
 }
 
 nav a {
@@ -282,8 +282,8 @@ aside div img {
 
 .clearfix:before,
 .clearfix:after {
-/*    content: " ";
-*/    display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
