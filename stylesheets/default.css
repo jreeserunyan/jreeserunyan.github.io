@@ -151,9 +151,9 @@ h4 {
 h5 {
     font-family: 'Special Elite', cursive;
     font-size: 1.2em;
-    margin-top: .5em;
+    margin-top: 0em;
     margin-bottom: 0em;
-    text-shadow: 1px 1px 1px silver;
+    text-shadow: 2px 2px 2px silver;
 }
 
 p {
