@@ -81,6 +81,7 @@ header img {
     clear: both;
     float: left;
     min-height: 100px;
+    min-width: 100px;
     padding: .5em;
     width: 12%;
 }
