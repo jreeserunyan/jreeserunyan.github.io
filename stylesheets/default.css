@@ -78,10 +78,11 @@ a:active { color: yellow; }
 
 
 header img {
+    clear: both;
     float: left;
+    min-height: 100px;
     padding: .5em;
     width: 12%;
-    clear: both;
 }
 
 /*navigation*/
