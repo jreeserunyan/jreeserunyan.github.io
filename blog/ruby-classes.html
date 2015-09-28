@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+    <head>
+    <!-- Fonts from Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Special+Elite|PT+Sans:400,400italic,700,700italic|Anonymous+Pro' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+<!--         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"> -->
+        <title>Chi Bobo Blog</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../stylesheets/normalize.min.css">
+        <link rel="stylesheet" href="../stylesheets/default.css">
+        <link rel="stylesheet" href="../stylesheets/blog.css">
+        <link rel="stylesheet" href="../stylesheets/trg.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- BEGIN CONTENT -->
+    <div class="debug">
+       <header class="clearfix span-12-t 2 debug">
+            <img src="imgs/bobolink_Icon.png" alt="Bobolink Logo">
+               
+                <h1>Chi Bobo Blog</h1>
+        
+                    <nav> 
+                        <ul>
+                            <li><a href="https://jreeserunyan.github.io/index.html#">home</a></li>
+                            <li><a href="https://jreeserunyan.github.io/blog/blog-index.html#">Blog</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Resume</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+        </header>
+ 
+       
+  
+<!-- Main content -->
+<div class="col span-8-t debug">
+    <section>
+            <h2>Create a Candle (class)</h2>
+            <h3>An inventory for my home-made candles.</h3>
+    <article>
+        <h4>Sept 27, 2015</h4>
+        <p>Start by creating a class for Candle. (With a capital C for Candle.)
+        All of my candles have a fragrance, a color, a size and a shape. Also, since there isn’t much use to an inventory quantities, I want to be able to keep track of how many I have, and if that changes.</p>
+
+        <p>When you create a class, you start with an object method that is constructor. In Ruby, this is “initialize.” When you initialize your class, you create parameters that you can set equal to instance variables. Each of these instance variables defines a single attribute that every object in the class will have.</p>
+        
+        <div class="gist"><script src="https://gist.github.com/jreeserunyan/b918cbcc8cb67c7f537d.js"></script></div>
+        <p>Now we have a class called Candle. Every time we make a new batch of candles, we know what attributes they are going to have.</p>
+        <p>To get a pleasant, easy-to-read output of your information, define the "inspect" method to suit your purposes. This example below overrides the default “inspect".</p>
+         <div class="gist"><script src="https://gist.github.com/jreeserunyan/ff7adb4948be0a3bb757.js"></script></div>
+
+        <p>Now that we have a class called Candle. Every time we make a new batch of candles, we know what attributes they are going to have.</p>
+
+        <p>Let's create make a few batches of candles.</p>
+
+        <div class="gist"><script src="https://gist.github.com/jreeserunyan/a03a06e3794f7e17c7dd.js"></script></div>
+
+        <p>What we can do now is "call" the inspect method we created and display our info. To do that, just give the name of the one of the new candle batches followed by a dot and the name of our instance method.</p>
+
+        <p>Let's call the first batch of candles and display their info.</p>
+
+        <div class="gist"><script src="https://gist.github.com/jreeserunyan/e6d6ce8d6f55e066c508.js"></script></div>
+       
+       <p>There are a lot of methods we can put into this class, but this has gone on for too long already, so lets wrap up with what happens if we make more candles, or decide to burn one (or more) of the candles we already have.</p>
+
+        <div class="gist"><script src="https://gist.github.com/jreeserunyan/67d2124258850b72affc.js"></script></div>
+        <p>In order to make this work you need to set up reading and writing methods.</p>
+        <div class="gist"><script src="https://gist.github.com/jreeserunyan/ab5fd02602f7b8d8cef0.js"></script></div>
+        <p> Add the <em>attr_accessor</em> line inside the Class, above the initialize statement. You can set them up for any instance variable. If you only want to allow permission to read your variable, just use <em>attr_reader</em>, likewise, if you only want to allow it to be written use <em>attr_writer</em>. These methods are also called <em>getter</em> and <em>setter</em> methods respectively.</p>
+        <div class="gist"><script src="https://gist.github.com/jreeserunyan/d3146396203ea4d78ebf.js"></script></div>
+        <p>What we have done so far is pretty easy, but just think of all the ways this info can be used and transformed!</p> 
+        <h5>Thanks for reading my explanation of Classes, if I got something wrong, please let me know!!</h5>
+    </article>
+    </section>
+    
+
+    </div>
+
+<!-- Sidebar -->
+    <aside class="col span-4-t debug">  
+            <h3>Blog List</h3>
+        <ul>
+            <li><a href="blog-index.html"><b>Tech Blog</b> - Hello, Version Control</a></li>
+            <li><a href="css-concepts.html"><b>Tech Blog</b> - Positions, please!</a></li>
+            <li><a href="issues-in-tech.html#"><b>Cultural Blog</b> - Mobile NOW</a></li>
+            <li><a href="arrays-hashes.html#"><b>Tech Blog</b> - Re-HASHED</a></li>
+            <li><a href="enumerable-methods.html#"><b>Tech Blog</b> - Enumerables</a></li>
+            <li><a href="ruby-classes#"><b>Tech Blog</b> - Create a Candle (class)</a></li>
+        </ul>
+                 
+            <h3>Follow Me On...</h3>
+<!-- These divs are in the CSS as 'aside div img' -->
+     <div class="social media">
+            <a href="https://github.com/jreeserunyan" target="_blank"> 
+                <img src="../imgs/github.png" alt="Github"></a>
+    </div>
+    <div class="social media">
+            <a href="https://www.linkedin.com/in/jreeserunyan" target="_blank">
+            <img src="../imgs/Logo-2CRev-59px-TM.png" alt="LinkedIn"></a>
+    </div>
+    <div class="social media">
+            <a href="http://www.twitter.com/reese_37" target="_blank"> 
+            <img src="../imgs/TwitterLogo.png" alt="Twitter"></a>
+    </div>
+
+                    <!-- Eventually create graphics for email-->
+                        <div class="contact">
+                    <h3>Contact Me<br> @ <a href="mailto:#">this address!</a></h3>
+                        
+                    <!-- how specific should contact info be? -->
+                    <p>Jamie Runyan<br><b>Logan Square</b> Chicago, IL</p>
+                        </div>
+        </aside>
+
+
+    <footer class="col span-12-t debug">
+        <img class="span-1-t" src="imgs/icon_sm2.png" alt="Small Bobolink Logo"> &copy; 2015 Jamie Runyan
+    </footer>
+</div></body>
+    
+</html>

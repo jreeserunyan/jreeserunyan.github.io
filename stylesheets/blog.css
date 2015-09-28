@@ -7,12 +7,21 @@
     margin-bottom: -1em;  
 }
 
+header img {
+    float: left;
+    padding: .2em;
+    width: 10%;
+    clear: both;
+}
+
 .span-4-t { 
     background-color: black; 
     border-left: 1pt dotted silver;
     color: white;
-    height: 100%;
-    padding: 3%;  
+    display: none;
+    line-height: 2em;
+    padding: 4%;  
+    text-align: left;
 }
 
 /*Blog aside*/
@@ -20,14 +29,23 @@ h1 {
     color: white;
     display: inline-block;
     font-family: 'Anonymous Pro', ;
-    font-size: 3em;
-    padding: .5em;
+    font-size: 2.4em;
+/*    padding: .5em;
+*/    text-align: left;
 }
 
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 2em;
+    margin-top: .5em;
+    margin-bottom: 0em;
+    text-shadow: 4px 4px 4px #aaa;
+}
 h3 {
     font-family: 'Anonymous Pro', ;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1em;
+    text-align: left;
 }
 
 /*Social media linked icons*/
@@ -42,3 +60,4 @@ aside div img {
     background-color: black;
     padding: 1em;
 }
+
