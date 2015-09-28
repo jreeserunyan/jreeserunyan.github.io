@@ -176,6 +176,7 @@ aside ul {
 .span-12-t {
     background-image: url("../imgs/pat2.png") ;
     color: white; 
+    border-bottom: 1pt solid black;
 /*    padding: .2em; 
 */}
 

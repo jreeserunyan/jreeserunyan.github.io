@@ -52,12 +52,12 @@ h4 {
     color: teal;
     font-family: 'Anonymous Pro', ;
     font-size: 1.2em;
-    text-shadow: 1px 1px 1px silver;
+    /*text-shadow: 1px 1px 1px silver;*/
 }
 
     
 h5 {
-    color: teal;
+    color: darkslategray;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.2em;
     margin-top: 0em;
