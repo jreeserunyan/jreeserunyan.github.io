@@ -39,7 +39,7 @@ h2 {
     font-size: 2em;
     margin-top: .5em;
     margin-bottom: 0em;
-    text-shadow: 4px 4px 4px #aaa;
+    text-shadow: 3px 3px 3px silver;
 }
 h3 {
     font-family: 'Anonymous Pro', ;
@@ -47,13 +47,21 @@ h3 {
     line-height: 1em;
     text-align: left;
 }
+
+h4 { 
+    color: teal;
+    font-family: 'Anonymous Pro', ;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px silver;
+}
+
+    
 h5 {
     color: teal;
     font-family: 'Anonymous Pro', ;
     font-size: 1.2em;
     margin-top: 0em;
     margin-bottom: 0em;
-    text-shadow: 2px 2px 2px silver;
 }
 /*Social media linked icons*/
 aside div img {
