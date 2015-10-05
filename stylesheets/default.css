@@ -195,6 +195,23 @@ aside ul {
     padding: 2em; 
 }
 
+article ul li {
+    background: linear-gradient(white, #EBEBEB); /* Standard syntax */
+    border-bottom: .1em dotted silver;
+    border-left: .1em dotted white;
+    border-right: .1em dotted silver;
+    border-top: .1em dotted #EBEBEB;
+    border-radius: 2em;
+    float: left;
+    list-style: none;
+    margin: .5em;
+    padding: .8em;
+    text-align: center;
+    width: 80%;
+}
+
+
+}
 article h4 {
     border-top: 1pt dotted teal;
     padding-top: 1em;
