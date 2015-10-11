@@ -1,0 +1,159 @@
+/*Full width content section*/ 
+
+.span-12-t {
+    background-image: url("../imgs/bl_pat.png") ;
+    color: white; 
+    padding: .1em;
+    margin-bottom: -1em;  
+}
+
+header img {
+    float: left;
+    padding: .2em;
+    width: 10%;
+    clear: both;
+}
+/*Main content section*/
+/*.span-8-t { 
+    height: 100%;
+    padding: 2em; 
+}
+.span-6-t-left { 
+    background-color: black; 
+    border-left: 1pt dotted silver;
+    /*color: white;
+    display: none;
+    line-height: 2em;
+    padding: 1%;  
+    text-align: left;
+    width: 90%;
+*/
+.concept debug {
+    margin: 1em;
+    padding: 1em;
+}
+.concept article debug {
+    background: linear-gradient(white, #EBEBEB);  Standard syntax 
+    border-bottom: .1em dotted silver;
+    border-left: .1em dotted white;
+    border-right: .1em dotted silver;
+    border-top: .1em dotted #EBEBEB;
+    border-radius: .3em;
+    color: black;
+    float: right;
+    list-style: none;
+    margin: .5em;
+    padding: 0em .2em 0em .2em;
+    width: 96%;
+}
+
+.concept aside debug {
+    /*background: linear-gradient(white, #EBEBEB); /* Standard syntax */*/
+    border-bottom: .1em dotted silver;
+    border-left: .1em dotted white;
+    border-right: .1em dotted silver;
+    border-top: .01em dotted teal;
+    float: left;
+    margin: .2em;
+    padding: .2em;
+    width: 30%;
+}
+/*.concept right {
+    /*background: linear-gradient(white, #EBEBEB); /* Standard syntax */*/
+    border-bottom: .1em dotted silver;
+    border-left: .1em dotted white;
+    border-right: .1em dotted silver;
+    border-top: .01em dotted teal;
+    float: left;
+    margin: .2em;
+    padding: .2em;
+    width: 30%;
+}*/
+
+/*.concept ul {*/
+    /*background: linear-gradient(white, #EBEBEB); /* Standard syntax */
+ /*   border-bottom: .1em dotted silver;
+    border-left: .1em dotted white;
+    border-right: .1em dotted silver;
+    border-top: .01em dotted teal;
+    border-radius: .2em;*/
+/*    float: left;
+    list-style: none;*/
+    /*margin: .32em;*/
+    /*padding: .2em;*/
+    /*text-align: center;*/
+    /*width: 30%;*/
+
+
+/*.concept ul li {
+    background: linear-gradient(white, #EBEBEB); /* Standard syntax */
+/*    border-bottom: .1em dotted silver;
+    border-left: .1em dotted white;
+    border-right: .1em dotted silver;
+    border-top: .01em dotted teal;
+    border-radius: .2em;
+    float: left;*/
+    /*list-style: none;*/
+    /*margin: .32em;*/
+    /*padding: .2em;*/
+    /*text-align: center;*/
+    /*width: 30%;*/
+}
+
+/*Blog aside*/
+h1 {
+    color: white;
+    display: inline-block;
+    font-family: 'Anonymous Pro', ;
+    font-size: 1.5em;
+/*    padding: .5em;
+*/    text-align: left;
+}
+
+.concept h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+    margin-top: .2em;
+    margin-bottom: 0em;
+    /*text-shadow: 3px 3px 3px silver;*/
+}
+h3 {
+    font-family: 'Anonymous Pro', ;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: left;
+}
+
+h4 { 
+    color: teal;
+    font-family: 'Anonymous Pro', ;
+    font-size: 1em;
+    /*text-shadow: 1px 1px 1px silver;*/
+}
+    
+h5 {
+    color: darkslategray;
+    font-family: 'Anonymous Pro', ;
+    font-size: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    text-shadow: 1px 1px 1px azure;
+
+}
+
+
+
+
+/*Social media linked icons*/
+aside div img {
+    background-color: black;
+    height: 2em;
+    padding: .5em;
+}
+
+/*Color around contact info*/
+.contact {
+    background-color: black;
+    padding: 1em;
+}
+

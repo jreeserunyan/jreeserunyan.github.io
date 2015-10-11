@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-html {
+/*html {
     color: #222;
     font-size: 1em;
     line-height: 1.3;
@@ -51,7 +51,7 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
+*/
 
 /* ==========================================================================
    Author's custom styles
@@ -80,8 +80,8 @@ a:active { color: yellow; }
 header img {
     clear: both;
     float: left;
-    min-height: 150px;
-    min-width: 150px;
+    min-height: 100px;
+    min-width: 100px;
     padding: .5em;
     width: 12%;
 }
@@ -182,20 +182,21 @@ aside ul {
 }
 
 /*Full width content section*/ 
-.span-12-t {
+.span-12-t-debug {
     background-image: url("../imgs/pat2.png") ;
     color: white; 
 /*    border-bottom: 3pt solid black;
 *//*    padding: .2em; 
 */}
 
+
 /*Main content section*/
-.span-8-t { 
+/*.gutters-t .span-6-t debug { 
     height: 100%;
     padding: 2em; 
-}
+}*/
 
-article ul li {
+article ul li debug {
     background: linear-gradient(white, #EBEBEB); /* Standard syntax */
     border-bottom: .1em dotted silver;
     border-left: .1em dotted white;
@@ -222,19 +223,19 @@ article h4 {
 }
 
 /*Sidebar*/
-#aside {
+.aside span-6-t debug {
     height: 100%;
     position: absolute;
     text-align: left;
 
 }
 
-.span-4-t { 
+/*.span-6-t debug { 
     background-color: #F3F3F4; 
     border-left: 1pt dotted teal;
     height: 100%;
     padding: 2em;  
-}
+}*/
 
 /*Profile image*/
 .profile {
@@ -266,7 +267,7 @@ aside div img {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+/*@media only screen and (min-width: 35em) {
 
 }
 
@@ -275,13 +276,13 @@ aside div img {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 
-}
+}*/
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
-.hidden {
+/*.hidden {
     display: none !important;
     visibility: hidden;
 }
@@ -324,12 +325,12 @@ aside div img {
 .clearfix {
     *zoom: 1;
 }
-
+*/
 /* ==========================================================================
    Print styles
    ========================================================================== */
 
-@media print {
+/*@media print {
     *,
     *:before,
     *:after {
@@ -387,4 +388,4 @@ aside div img {
     h3 {
         page-break-after: avoid;
     }
-}
+}*/
