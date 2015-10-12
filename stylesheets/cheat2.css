@@ -189,12 +189,21 @@ aside ul {
 *//*    padding: .2em; 
 */}
 
+.main {
+    /*background-image: url("../imgs/pat2.png") ;*/
+    color: black; 
+    border-bottom: 3pt solid black;
+    padding: 2em; 
+}
 
-/*Main content section*/
+/*Main content section
 /*.gutters-t .span-6-t debug { 
     height: 100%;
     padding: 2em; 
 }*/
+b {
+    color: teal;
+}
 
 article ul li debug {
     background: linear-gradient(white, #EBEBEB); /* Standard syntax */
@@ -223,12 +232,12 @@ article h4 {
 }
 
 /*Sidebar*/
-.aside span-6-t debug {
+/*.aside span-6-t debug {
     height: 100%;
     position: absolute;
     text-align: left;
 
-}
+}*/
 
 /*.span-6-t debug { 
     background-color: #F3F3F4; 
