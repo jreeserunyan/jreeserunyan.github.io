@@ -49,6 +49,7 @@
 <div class="main">
 <article class="concept">
 <h4> Some bits of ruby</h4>
+<h5> adapted from the poignant guide</h5>
 <p><em>arrays</em> - a list surrounded by SQUARE BRACKETS and separated by commas.<br> <b>[ ]<br>
 [1, 2, 3] is an array of numbers.<br>
 ['coat', 'mittens', 'snowboard'] </b> is an array of strings.
@@ -59,82 +60,80 @@ Think of it as a caterpillar stalled into your code. The square brackets are the
 <p><em>block arguments</em> - set of variables surrounded by pipe characters and separated with commas. Block arguments are used at the beginning of a block.<br>
 <b>{ |x,y| x + y }</b><br>
 Above, <b>|x,y|</b> are arguments, after the arguments, there is a bit of code, the expression x + y  adds the two arguments together.
-The pipe is a tunnel that the variables slide down. They pass through the tunnel and into the block, in this case x + y .</p>
+The pipe is a tunnel that the variables slide down. They pass through the tunnel and into the block, in this case <b>x + y</b> .</p>
 
-constants - capitalized, consisting of letters, digits and underscores. The proper nouns of ruby. The Empire State Building. You can’t just move The Empire State Building. It is what it is. They refer to very specific things that don’t change. Once a constant is set, Ruby will complain if you try to change a constant.
-Time, Array or Bunny_Lake_is_Missing are examples.
+<p><em>constants</em> - capitalized, consisting of letters, digits and underscores. The proper nouns of ruby. The Empire State Building. You can’t just move The Empire State Building. It is what it is. They refer to very specific things that don’t change. Once a constant is set, Ruby will complain if you try to change a constant.
+Time, Array or Bunny_Lake_is_Missing are examples.</p>
 
-hashes - a dictionary surrounded by curly braces. Here our curly braces are are open books with creases in the center, the pen and close our dictionary. Easy to read through.
+<p><em>hashes</em> - a dictionary surrounded by curly braces. Here our curly braces are are open books with creases in the center, the pen and close our dictionary. Easy to read through.
 Dictionaries match words to definitions. Ruby does so with arrows made for an equals sign followed by greater than sign =>
-{ 'name' => 'Peter', 'profession' => 'lion tamer', 'great love' => 'flannel' }
-Imagine our dictionary has a definition on each of its pages. The commas represent the corner of each page, which we turn to see the next definition. And on each page: a word followed by an arrow pointing to the definition.
+<b>{ 'name' => 'Peter', 'profession' => 'lion tamer', 'great love' => 'flannel' }</b><br>
+Imagine our dictionary has a definition on each of its pages. The commas represent the corner of each page, which we turn to see the next definition. And on each page: a word followed by an arrow pointing to the definition.</p>
 
-keywords - Ruby has a number of built-in words, imbued with meaning. These words cannot be used as variables or changed to suit your purposes. Some of these we’ve already discussed. They are in the safe house, my friend. You touch these and you’ll be served an official syntax error.
-alias   and     BEGIN   begin   break   case    class   def     defined do      else    elsif   END     end     ensure  false   for     if
+<p><em>keywords</em> - Ruby has a number of built-in words, imbued with meaning. These words cannot be used as variables or changed to suit your purposes. Some of these we’ve already discussed. They are in the safe house, my friend. You touch these and you’ll be served an official syntax error.</p>
+<em>alias   and     BEGIN   begin   break   case    class   def  defined do      else    elsif   END     end     ensure  false   for     if
 in   module  next    nil     not     or      redo    rescue  retry return  self    super   then    true    undef   unless  until   when
-while   yield
+while   yield</em><br>
 
-methods - If variables and constant are nouns, then methods are verbs of Ruby. Methods are attached to the end of variables and constant with a dot. The can have exclamation and question marks.
-front_door.open
+<p><em>methods</em> - If variables and constant are nouns, then methods are verbs of Ruby. Methods are attached to the end of variables and constant with a dot. The can have exclamation and question marks.<br>
+<b>front_door.open</b><br>
 In the above, OPEN is the method. It’s the action.
 They can be chained together.
 front_door.open.close
 The door has now been instructed to open and then immediately close.
 front_door.is_open?
-The computer was instructed to test the door and see if it’s open.
+The computer was instructed to test the door and see if it’s open.</p>
 
-class methods OR Instance methods - attached after variables and constant, using a double colon :: instead of a dot.  Door::new( :oak )  Used to create things, here, make a new door out of oak.
+<p><em>class methods OR Instance methods</em> - attached after variables and constant, using a double colon <b>::</b> instead of a dot.  <b>Door::new( :oak )</b>  Used to create things, here, make a new door out of oak.</p>
 
-kernel methods - Some methods, like print and exit are KERNEL methods, are so common, they don’t need a dot. They actually are class methods/
+<p><em>kernel methods</em> - Some methods, like print and exit are KERNEL methods, are so common, they don’t need a dot. They actually are class methods. </p>
 
-method arguments - A method may need more info to perform it’s action. If we want to paint the door, we should provide a color as well.
-front_door.paint( 3, :red )
-The above method and argument pains the front door 3 coats of red.
-Like an inner tube being pulled by a boat, the parentheses form wet round edges. Commas between arguments, but don’t leave a comma hanging at the end. Many methods can be chained.
-front_door.paint( 3, :red ).dry( 30 ).close(.
-The above paints the front door 3 coats of red paint, dries for 30 min and closes the door. You can put parentheses after the last method, even though it has no arguments, if you like. But they are usually dropped because it’s just dragging along something you don’t need.
-.
-numbers - basic integer, a series of digits, can begin with either a + or - .  No commas allowed, but you want something for visual clarity, use underscores. (Floats consist of numbers with a decimal place or scientific notation.)
+<p><em>method arguments</em> - A method may need more info to perform it’s action. If we want to paint the door, we should provide a color as well.<br>
+<b>front_door.paint( 3, :red )</b>
+<p>The above method and argument pains the front door 3 coats of red.
+Like an inner tube being pulled by a boat, the parentheses form wet round edges. Commas between arguments, but don’t leave a comma hanging at the end. Many methods can be chained. </p>
+<b>front_door.paint( 3, :red ).dry( 30 ).close</b>
+<p>The above paints the front door 3 coats of red paint, dries for 30 min and closes the door. You can put parentheses after the last method, even though it has no arguments, if you like. But they are usually dropped because it’s just dragging along something you don’t need.</p>
 
-operators - You’ll use the following list of operators to do math in Ruby or to compare things. Scan over the list, recognize a few. You know, addition + and subtraction - and so on.
-** !  ~  *  /  %  +  -  &
+<p><em>numbers</em> - basic integer, a series of digits, can begin with either a + or - .  No commas allowed, but you want something for visual clarity, use underscores. (Floats consist of numbers with a decimal place or scientific notation.)</p>
+
+<p><em>operators</em> - You’ll use the following list of operators to do math in Ruby or to compare things. Scan over the list, recognize a few. You know, addition + and subtraction - and so on.<br>
+<b>** !  ~  *  /  %  +  -  &
 << >> |  ^  >  >= <  <= <=>
 || != =~ !~ && += -= == ===
-.. ... not and or
+.. ... not and or</b>
 
-ranges - two values surround by parentheses, separated by two or three dots. ..
+<p><em>ranges</em> - two values surround by parentheses, separated by two or three dots.
 (1..3)range, representing the numbers 1 through 3.
 ('a'..'z') range, representing a lowercase alphabet.
 (0...5) represents the numbers 0 through 4.
 Think of it as an accordion which has been squeezed down for carrying. The parentheses are the handles on the sides of a smaller, handheld accordion. The dots are the chain, keeping the folds tightly closed.
-Normally, only two dots are used. If a third dot is used, the last value in the range is excluded. (When you see that third dot, imagine opening the accordion slightly. Just enough to let one note from its chamber. The note is that end value. We’ll let the sky eat it.)
+Normally, only two dots are used. If a third dot is used, the last value in the range is excluded. (When you see that third dot, imagine opening the accordion slightly. Just enough to let one note from its chamber. The note is that end value. We’ll let the sky eat it.)</p>
 
-regular expressions - (regexp) set of characters surrounded by slashes. 
+<p><em>regular expressions</em> - (regexp) set of characters surrounded by slashes. 
 /ruby/, /[0-9]+/ and /^\d{3}-\d{3}-\d{4}/ are examples.
 Regular expressions are used to find words or patterns in text. The slashes on each side of the expression are pins.
 Imagine if you had a little word with pins on both side and you held it over a book. You pass the word over the book and when it gets near a matching word, it starts blinking. You pin the regular expression onto the book, right over the match and it glows with the letters of the matching word. Oh, and when you poke the pins into the book, the paper sneezes, reg-exp!
-Regular expressions are much faster than passing your hand over pages of a book. Ruby can use a regular expression to search volumes of books very quickly.
+Regular expressions are much faster than passing your hand over pages of a book. Ruby can use a regular expression to search volumes of books very quickly.</p>
 
-strings - any characters, letters, digit or punctuation surrounded by single or double quotes.
+<p><em>strings</em> - any characters, letters, digit or punctuation surrounded by single or double quotes.</p>
 
-symbols - lowercase, consisting of letters, digits and underscores, but always beginning with a colon. Symbols function like lightweight strings. They are used in situations where you need a string but you won’t be printing it to the screen. :a. A symbol is “easy on the computer’s stomach”.
+<p><em>symbols</em> - lowercase, consisting of letters, digits and underscores, but always beginning with a colon. Symbols function like lightweight strings. They are used in situations where you need a string but you won’t be printing it to the screen. :a. A symbol is “easy on the computer’s stomach”.</p>
 
-variables - lowercase, consisting of letters, digits and underscores. Like a nickname for something you use frequently.
-The nouns of Ruby.
+<p><em>variables</em> - lowercase, consisting of letters, digits and underscores. Like a nickname for something you use frequently.
+The nouns of Ruby.</p>
 
-instance variables - variables that begin with an AT symbol.@
-Think of @ as meaning ATTRIBUTE. used to define characteristics of a single object. You might give Ruby the width of the front_door by setting the @width variable inside that front_door
+<p><em>instance variables</em> - variables that begin with an AT symbol. <b>@</b>
+Think of @ as meaning ATTRIBUTE. used to define characteristics of a single object. You might give Ruby the width of the front_door by setting the @width variable inside that front_door. </p>
 
-class variables - begin with double AT symbols @@ 
-give an attribute to many related objects in Ruby. If instance variables set attributes for a single front_door, class variables set attributes for everything that is a Door. ATTRIBUTE ALL. or a swarm of star wars AT-AT(all terrain armored transport) all commanded by ruby. You change a class variable and they all change.
+<p><em>class variables</em> - begin with double AT symbols @@ 
+give an attribute to many related objects in Ruby. If instance variables set attributes for a single front_door, class variables set attributes for everything that is a Door. ATTRIBUTE ALL. or a swarm of star wars AT-AT(all terrain armored transport) all commanded by ruby. You change a class variable and they all change.</p>
 
-global variables -  variables that begin with a dollar sign. $
-Global variables can be accessed anywhere in your program. The never go out of sight.
-Most variables are rather temporary in nature. Some parts of your program are like little houses. You walk in and they have their own variables. In one house, you may have a dad that represents Archie, a traveling salesman and skeleton collector. In another house, dad could represent Peter, a lion tamer with a great love for flannel. Each house has its own meaning for dad.
-With global variables, you can be guaranteed that the variable is the same in every little house. The dollar sign is very appropriate. Every American home respects the value of the dollar. We’re crazy for the stuff. Try knocking on any door in America and hand them cash. I can guarantee you won’t get the same reaction if you knock on a door and offer Peter, a lion tamer with a great love for flannel.
+<p><em>global variables</em> -  variables that begin with a dollar sign. <b>$</b>
+Global variables can be accessed anywhere in your program. The never go out of sight.</p>
+<p>Most variables are rather temporary in nature. Some parts of your program are like little houses. You walk in and they have their own variables. In one house, you may have a dad that represents Archie, a traveling salesman and skeleton collector. In another house, dad could represent Peter, a lion tamer with a great love for flannel. Each house has its own meaning for dad.
+With global variables, you can be guaranteed that the variable is the same in every little house. The dollar sign is very appropriate. Every American home respects the value of the dollar. We’re crazy for the stuff. Try knocking on any door in America and hand them cash. I can guarantee you won’t get the same reaction if you knock on a door and offer Peter, a lion tamer with a great love for flannel.</p>
 
-
-Global variables > class variables > instance variables > local variables</p>
             </section>
             </div>
 
