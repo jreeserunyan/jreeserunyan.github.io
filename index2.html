@@ -10,9 +10,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="stylesheets/normalize.min.css">
-        <link rel="stylesheet" href="stylesheets/default.css">
+        <link rel="stylesheet" href="stylesheets/default2.css">
         <link rel="stylesheet" href="stylesheets/trg.css">
-
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/style.css" />
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
@@ -26,27 +27,65 @@
         <![endif]-->
 
 <!-- BEGIN CONTENT -->
+<!--     <div class="debug">
+    <div id="wrapper">
+
+<div id="top-bar">
+    <div class="container clearfix">
+        <span class="all-labs"><a href="http://reeserunyan.github.io/index.html">&larr; all labs</a></span>
+        <span class="back-to-tutorial"><a href="http://reeserunyan.github.io/index.html">back to the tutorial</a></span>
+    </div>
+</div> -->
+<!-- /#top-bar -->
+
+
+<header class="clearfix span-12-t debug">
+    <div id="title" class="container">
+     <div id="icon">
+        <img src="imgs/bobolink_Icon.png" alt="Bobolink Logo">
+        </div>
+        <h1>A Chi Bobolink Named Jamie</h1>
+        <!-- <h2>A Navigation Menu That Responds to Screen Size</h2> -->
+
+<!-- /header -->
+
+
+
+        <div id="nav-trigger">
+            <span>Menu</span>
+        </div>
+        <nav id="nav-main">
+            <ul>
+                <li><a href="/index.html#">home</a></li>
+                <li><a href="/blog/blog-index.html#">Blog</a></li>
+                <li><a href="/projects.html#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="/about.html#">About</a></li>
+            </ul>
+
+        </nav>
+        <nav id="nav-mobile"></nav>
+
+    </div>
+</header>
+
+
+<!-- <div class="main">
     <div class="debug">
        <header class="clearfix span-12-t debug">
             <img src="imgs/bobolink_Icon.png" alt="Bobolink Logo">
                
                 <h1>A Chi Bobolink Named Jamie</h1>
         
-                    <nav> 
-                        <ul>
-                            <li><a href="/index.html#">home</a></li>
-                            <li><a href="/blog/blog-index.html#">Blog</a></li>
-                            <li><a href="/projects.html#">Projects</a></li>
-                            <li><a href="#">Resume</a></li>
-                            <li><a href="/about.html#">About</a></li>
-                        </ul>
-                    </nav>
-        </header>
+                    
+        </header> -->
  
        
   
 <!-- Main content -->
-<section class="col span-8-t debug">
+<div id="main">
+    <div class="container">
+    <section class="col span-8-t debug">
             <h2>Welcome & Thank You!</h2>
             <h3>I hope you enjoy this simple site and I appreciate any time you might spend here.</h3>
         
@@ -60,7 +99,7 @@
                 <ul2>
                     <li>rubeo means to be red</li>
                     <li>rubescō means to <em>grow</em> red</li>
-                </ul>
+                </ul2>
 
                 <p>The <em>-sc-</em> expands <em>inside</em> the word, even while the concept that the word represents is expanding. There is something exciting about that spark of action inside. <br> It never ends. It always exists in the exact moment of action.<br><em>Inchoatives iterate.</em></p>
             </article>
@@ -75,49 +114,52 @@
 
 <!-- Sidebar -->
     <aside class="col span-4-t debug">                
-        <img class="profile" src="imgs/Profile.png" alt="Jamie Runyan Profile Pic">
+        <img class="profile" src="imgs/Profile2.png" alt="Jamie Runyan Profile Pic">
 
                 <h2>Follow Me On...</h2>
                 <!-- These divs are in the CSS as 'aside div img' -->
                     <div class="social media">
                         <a href="https://github.com/jreeserunyan" target="_blank"> 
-                        <img src="imgs/github.png" alt="Github"></a>
+                        <img src="imgs/smBKs-01.png" alt="Github"></a>
                     </div>
                   <div class="social media">
-                        <a href="https://www.linkedin.com/in/jreeserunyan" target="_blank">
-                        <img src="imgs/Logo-2CRev-59px-TM.png" alt="LinkedIn"></a>
-                    </div>
-                    <div class="social media">
                         <a href="http://www.twitter.com/reese_37" target="_blank"> 
-                        <img src="imgs/TwitterLogo.png" alt="Twitter"></a>
+                        <img src="imgs/smBKs-02.png" alt="Twitter"></a>
+                    </div><div class="social media">
+                        <a href="https://www.linkedin.com/in/jreeserunyan" target="_blank">
+                        <img src="imgs/smBKs-03.png" alt="LinkedIn"></a>
+                    </div>
+                     <div class="social media">
+                        <a href="#" target="_blank"> 
+                        <img src="imgs/smBKs-04.png" alt="mail"></a>
                     </div>
 
                 <!-- Eventually create graphics for email-->
-                    <div class="contact">
-                <h3>Contact Me <br>@ <a href="mailto:#">this address!</a></h3>
+               <!--      <div class="contact">
+                <h3>Contact Me <br>@ <a href="mailto:#">this address!</a></h3> -->
                     
                 <!-- how specific should contact info be? -->
                 <p>Jamie Runyan<br><b>Logan Square</b> Chicago, IL</p>
                     </div>
     </aside>
+        <script src="js/main.js"></script>
+
+    
 
 
-    <footer class="col span-12-t debug">
+
+</script>
+
+</div>
+</div>
+<footer class="col span-12-t debug">
         <img class="span-1-t" src="imgs/icon_sm2.png" alt="Small Bobolink Logo"> &copy; 2015 Jamie Runyan
     </footer>
 
 
+</body>
 
 
 
 
-
-
-
-
-
-
-
-        <script src="js/main.js"></script>
-    </body>
 </html>
